@@ -1,1 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agroecologia: O Equilíbrio Sustentável</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
 
+    <header>
+        <div class="container navbar">
+            <div class="logo">
+                <i class="fa-solid fa-leaf"></i> Agro<span>Evolução</span>
+            </div>
+            
+            <nav>
+                <ul class="nav-links" id="nav-menu">
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#equilibrio">O Equilíbrio</a></li>
+                    <li><a href="#dados">Impacto em Números</a></li>
+                    <li><a href="#beneficios">Benefícios</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-controls">
+                <button id="theme-toggle" aria-label="Alternar tema">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+                <button class="menu-toggle" id="mobile-menu-btn" aria-label="Abrir menu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container hero-content sequential-fade">
+            <h1>Produzir para o Presente, <br><span class="highlight">Preservar para o Futuro</span></h1>
+            <p>A agroecologia prova que a produção de alimentos de alta qualidade e a conservação da biodiversidade caminham juntas. Descubra a ciência desse equilíbrio.</p>
+            <div class="hero-buttons">
+                <a href="#equilibrio" class="btn-primary">Descobrir o Equilíbrio</a>
+                <a href="#beneficios" class="btn-secondary">Ver Benefícios</a>
+            </div>
+        </div>
+        <div class="hero-wave">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V120H0V0C26.9,4.75,55.05,8.13,83,11.51,184.13,23.69,263.63,67.16,321.39,56.44Z" class="shape-fill"></path>
+            </svg>
+        </div>
+    </section>
+
+    <section id="equilibrio" class="section-padding scroll-animate">
+        <div class="container">
+            <h2 class="section-title">O Equilíbrio Perfeito</h2>
+            <p class="section-subtitle">A união estratégica entre eficiência de cultivo e regeneração ambiental.</p>
+            
+            <div class="grid-cards">
+                <div class="card">
+                    <div class="icon-wrapper"><i class="fa-solid fa-seedling"></i></div>
+                    <h3>Produção Consciente</h3>
+                    <p>Rotação de culturas e manejo biológico reduzem custos e eliminam a dependência de insumos químicos sintéticos agressivos.</p>
+                </div>
+                <div class="card">
+                    <div class="icon-wrapper"><i class="fa-solid fa-cloud-sun-rain"></i></div>
+                    <h3>Preservação Ativa</h3>
+                    <p>Recuperação da microbiota do solo, conservação de polinizadores nativos e proteção perene das bacias hidrográficas.</p>
+                </div>
+                <div class="card">
+                    <div class="icon-wrapper"><i class="fa-solid fa-users"></i></div>
+                    <h3>Sustentabilidade Social</h3>
+                    <p>Fortalecimento das economias locais, valorização da agricultura familiar e garantia de segurança alimentar para a sociedade.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="dados" class="section-padding bg-accent scroll-animate">
+        <div class="container">
+            <h2 class="section-title text-white">O Impacto em Números</h2>
+            <p class="section-subtitle text-white-muted">Evidências globais sobre o poder dos sistemas agroecológicos.</p>
+            
+            <div class="grid-stats">
+                <div class="stat-item">
+                    <span class="stat-number" data-target="40">0</span><span class="stat-unit">%</span>
+                    <p>Mais retenção de água no solo em períodos de seca extrema.</p>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="30">0</span><span class="stat-unit">%</span>
+                    <p>Aumento médio na biodiversidade de espécies polinizadoras.</p>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="60">0</span><span class="stat-unit">%</span>
+                    <p>Maior sequestro de carbono comparado à agricultura convencional.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="beneficios" class="bg-light section-padding scroll-animate">
+        <div class="container">
+            <h2 class="section-title">Pilares Tecnológicos</h2>
+            <p class="section-subtitle">Clique nas abas para entender a ciência por trás dos resultados.</p>
+            
+            <div class="interactive-box">
+                <div class="tabs">
+                    <button class="tab-btn active" data-tab="solo"><i class="fa-solid fa-earth-americas"></i> Solo Vivo</button>
+                    <button class="tab-btn" data-tab="clima"><i class="fa-solid fa-temperature-arrow-down"></i> Resiliência Climática</button>
+                    <button class="tab-btn" data-tab="saude"><i class="fa-solid fa-heart-pulse"></i> Saúde Integrada</button>
+                </div>
+                <div class="tab-content">
+                    <div id="solo" class="tab-pane active">
+                        <h3>Nutrição Orgânica Avançada</h3>
+                        <p>Ao invés de adubos solúveis artificiais, utiliza-se a biofertilização e a fixação biológica de nitrogênio. Isso reconstrói a estrutura física da terra, prevenindo a erosão e a desertificação.</p>
+                    </div>
+                    <div id="clima" class="tab-pane">
+                        <h3>Sistemas Agroflorestais (SAFs)</h3>
+                        <p>Ao consorciar árvores nativas com plantações agrícolas, cria-se um microclima estável. As árvores barram ventos fortes, diminuem a evaporação da água e capturam toneladas de gases estufa.</p>
+                    </div>
+                    <div id="saude" class="tab-pane">
+                        <h3>Segurança Nutricional Sem Resíduos</h3>
+                        <p>Cultivos livres de pesticidas geram alimentos bioativos, com maior densidade de antioxidantes e minerais essenciais, protegendo a saúde de quem consome e de quem produz.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="section-padding scroll-animate">
+        <div class="container form-container">
+            <h2 class="section-title">Faça Parte Dessa Transição</h2>
+            <p class="section-subtitle">Inscreva-se para receber artigos técnicos e boletins sobre práticas agroecológicas.</p>
+            
+            <form id="agro-form" novalidate>
+                <div class="form-group">
+                    <label for="nome">Nome Completo</label>
+                    <input type="text" id="nome" required placeholder="Ex: Maria Silva">
+                </div>
+                <div class="form-group">
+                    <label for="email">Endereço de E-mail</label>
+                    <input type="email" id="email" required placeholder="Ex: maria@exemplo.com">
+                </div>
+                <button type="submit" class="btn-submit">Enviar Inscrição <i class="fa-solid fa-paper-plane"></i></button>
+            </form>
+            <div id="form-message" class="hidden"></div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2026 AgroEvolução. Conectando ciência, cultivo e conservação ambiental.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
